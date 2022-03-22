@@ -1,0 +1,66 @@
+devices:
+  SC3306-ATN-01-CL1:
+    connections:
+      cli:
+        ip: 172.16.31.120
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: huawei_vrp
+    type: huawei_vrp
+  SC3282-ATN-01-CL1:
+    connections:
+      cli:
+        ip: 172.16.31.116
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: huawei_vrp
+    type: huawei_vrp
+  SC3288-ATN-01-CL1:
+    connections:
+      cli:
+        ip: 172.16.31.118
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: huawei_vrp
+    type: huawei_vrp
+  SC3285-ATN-01-CL1:
+    connections:
+      cli:
+        ip: 172.16.31.117
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: huawei_vrp
+    type: huawei_vrp
+  SC3273-ATN-01-CL1:
+    connections:
+      cli:
+        ip: 172.16.31.115
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: huawei_vrp
+    type: huawei_vrp

@@ -1,0 +1,79 @@
+devices:
+  SC3054-MWR-01-HA4:
+    connections:
+      cli:
+        ip: 172.16.31.1
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: ios
+    type: ios
+  SC3283-ASR-01-HA4:
+    connections:
+      cli:
+        ip: 172.16.31.85
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: ios
+    type: ios
+  SC3021-MWR-01-HA4:
+    connections:
+      cli:
+        ip: 172.16.31.5
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: ios
+    type: ios
+  SC3038-ASR-01-HA4:
+    connections:
+      cli:
+        ip: 172.16.32.64
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: ios
+    type: ios
+  SC3250-ATN-01-HA4:
+    connections:
+      cli:
+        ip: 172.16.32.14
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: huawei_vrp
+    type: ios
+  SC3351-ASR-01-HA4#:
+    connections:
+      cli:
+        ip: 172.16.32.123
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group14-sha1
+    credentials:
+      default:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+        username: pavera
+      enable:
+        password: '%ENC{wrXDp8OFw6DDmMOSw5fCl8KWwpLCrsKa}'
+    os: ios
+    type: ios
